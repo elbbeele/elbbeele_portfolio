@@ -1,0 +1,264 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.navbar{
+    background: #B2E9B5;
+    height: 80px;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    font-size: 1.2rem;
+    top: 0;
+    
+}
+
+.navbar_container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center
+}
+
+.navbar__links{
+    color: #549F7C;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    font-size: 1rem;
+}
+
+.navbar__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+    
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background: #fff;
+}
+
+.button:hover {
+    background: #549F7C;
+    transition: all 0.3s ease;
+}
+
+.navbar__links:hover{
+    color: #fff;
+}
+
+/* -----------elizabeth home------------- */
+
+#home{
+    color: #000;
+    background-color: #B2E9B5;
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+.row{
+    /* display: flex; */
+    /* justify-content: space-between; */
+    /* flex-wrap: wrap; */
+}
+
+.col{
+    float: left;
+}
+
+.home-col-1{
+    width: 50%;
+    margin-top: 5px;
+}
+
+.home-col-2{
+    width: 50%;
+    margin-top: 30px;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.home-col-2 h1{
+    font-size: 60px;
+    text-align: center;
+}
+
+.home-col-2 img{
+    border-radius: 50%;
+    width: 80%;
+    margin: 20px 50px 40px 50px;
+    outline-style: solid;
+    outline-color: white;
+    outline-width: 10px;
+}
+
+.home-col-2  h2{
+    font-size: 40px;
+    color: #549F7C;
+    text-align: center;
+
+}
+
+.home-col-3{
+    width: 30%;
+    overflow: hidden;
+}
+
+.slider{
+    width: 500px;
+    height: 300px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 0px;
+    text-align: center;
+    overflow: hidden;
+    /* border-radius: 10px;
+    outline-style: solid;
+    outline-color: white;
+    outline-width: 10px; */
+}
+
+.img__container{
+    width: 1500px;
+    height: 300px;
+    clear: both;
+    position: relative;
+    -webkit-transition: left 1s;
+    -moz-transition: left 1s;
+    -o-transition: left 1s;
+    transition: left 1s;
+}
+
+.slide{
+    float: left;
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+#slide-1:target ~ .img__container {
+    left: 0px;
+}
+#slide-2:target ~ .img__container {
+    left: -500px;
+}
+#slide-3:target ~ .img__container {
+    left: -1000px;
+}
+
+.buttons {
+    position: relative;
+    top: -100px;
+}
+.buttons a {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+/* -----------about---------- */
+#about{
+    padding: 300px 150px;
+    color: #000;
+    background-color: #B2E9B5;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1{
+    flex-basis: 35%;
+}
+
+.about-col-1 img{
+    padding: 25px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about-col-2{
+    flex-basis: 60%;
+}
+
+.about-col-2 h1{
+    padding: 10px 10px;
+    background-color: #549F7C;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.about-col-2 p{
+    padding: 15px 15px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.subtitle{
+    font-size: 60px;
+    font-weight: 600;
+    justify-content: space-between;
+    flex-basis: wrap;
+}
+/*
+.main__slides h2{
+    
+}
+
+.main__slides p2{
+    
+}
+
+.main__img--container{
+    text-align: center; /* put img in center
+    justify-content: center;
+    align-items: center;
+    height: 40%; /* makes img smaller
+    width: 40%; /* makes img smaller
+}
+
+.main__img2--container{
+    border-radius: 50%;
+    padding: 10px;
+    height: 40%; /* makes img smaller
+    width: 30%; /* makes img smaller
+}
+

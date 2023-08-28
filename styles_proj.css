@@ -1,0 +1,151 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.navbar{
+    background: #F5C6A4;
+    height: 80px;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    font-size: 1.2rem;
+    top: 0;
+    
+}
+
+.navbar_container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center
+}
+
+.navbar__links{
+    color: #F4934C;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    font-size: 1rem;
+}
+
+.navbar__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background: #fff;
+}
+
+.button:hover {
+    background: #F4934C;
+    transition: all 0.3s ease;
+}
+
+.navbar__links:hover{
+    color: #fff;
+}
+
+
+/* ------------------mycycle----------------- */
+
+#mycycle{
+    background-color: #F5C6A4;
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+.row{
+    display: flex;
+}
+
+.col{
+    float: left;
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+.explanation{
+    width: 40%;
+}
+
+.explanation h1{
+    font-size: 80px;
+    padding: 15px 0;
+    margin: 10px;
+}
+
+.explanation h2{
+    display: inline-flex;
+    font-size: 30px;
+    padding: 8px 10px;
+    color: #fff;
+    background-color: #F4934C;
+    border-radius: 10px;
+    margin: 10px 0 10px 0;
+}
+
+.explanation p{
+    padding: 15px 0;
+}
+
+.explanation ul li{
+    margin-top: 10px;
+    margin-left: 10px;
+    padding: 2px 0;
+}
+
+.pic{
+    margin-bottom: 150px;
+    margin-top: 100px;
+    width: 60%;
+}
+
+.pic img{
+    width: 98%;
+    border-radius: 30px;
+    margin-bottom: 20px;
+}
+
+.pic h1{
+    text-align: center;
+    font-size: 40px;
+}
+
+/* ------------------alpha modes----------------- */
+
+#alpha_modes{
+    background-color: #F5C6A4;
+}

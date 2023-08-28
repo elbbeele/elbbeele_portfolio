@@ -1,0 +1,287 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Urbanist', sans-serif;
+}
+
+.navbar{
+    background: #B2E9B5;
+    height: 80px;
+    display: flex;
+    justify-content: center;   
+    align-items: center;
+    font-size: 1.2rem;
+    top: 0;
+    
+}
+
+.navbar_container {
+    display: flex;
+    justify-content: space-between;
+    height: 80px;
+    z-index: 1;
+    width: 100%;
+    max-width: 1300px;
+    margin: 0 auto;
+    padding: 0 50px;
+}
+
+.navbar__menu {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    text-align: center
+}
+
+.navbar__links{
+    color: #549F7C;
+    display: flex;
+    align-items: center;
+    justify-self: center;
+    text-decoration: none;
+    padding: 0 1rem;
+    height: 100%;
+    font-size: 1rem;
+}
+
+.navbar__btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 1rem;
+    width: 100%;
+    
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-decoration: none;
+    padding: 10px 10px;
+    height: 100%;
+    width: 100%;
+    border: none;
+    outline: none;
+    border-radius: 15px;
+    background: #fff;
+}
+
+.button:hover {
+    background: #549F7C;
+    transition: all 0.3s ease;
+}
+
+.navbar__links:hover{
+    color: #fff;
+}
+
+/* -----------elizabeth home------------- */
+
+#home{
+    color: #000;
+    background-color: #B2E9B5;
+}
+
+.container{
+    padding: 10px 10%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+}
+
+.col{
+    float: left;
+}
+
+.col1{
+    /* flex-basis: 35%; */
+    width: 20%;
+    margin-top: 500px;
+}
+
+.col2{
+    /* flex-basis: 35%; */
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #B2E9B5;
+}
+
+.col2 h1{
+    font-size: 60px;
+    font-weight: 1000;
+    position: absolute;
+    margin: 20px;
+}
+
+.col2 img{
+    border-radius: 50%;
+    padding: 20px;
+    width: 500px;
+    margin: auto;
+}
+
+.col2 h2{
+    position: absolute;
+    font-size: 40px;
+    text-align: center;
+    font-weight: 500;
+    color: #549F7C;
+}
+
+.col3{
+    width: 20%;
+    margin-top: 500px;
+    /* flex-basis: 35%; */
+}
+
+/* Style the tab */
+.tab {
+    overflow: hidden;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+  }
+  
+  /* Change background color of buttons on hover */
+  .tab button:hover {
+    background-color: #ddd;
+  }
+  
+  /* Create an active/current tablink class */
+  .tab button.active {
+    background-color: #ccc;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 12px;
+    border: 1px solid #ccc;
+    border-top: none;
+  }
+  
+
+.tab-links{
+    display: flex;
+    /* margin: 20px 0 40px; */
+    /* margin-right: 50px; */
+    font-size: 18px;
+    font-weight: 500;
+    cursor: pointer;
+    position: relative;
+}
+
+.tab-links::after{
+    content: '';
+    width: 0;
+    height: 3px;
+    background: #549F7C;
+    position: absolute;
+    left: 0;
+    bottom: -8px;
+    transition: 0.5s;
+}
+
+.tab-contents ul li{
+    list-style: none;
+    margin: 10px 0;
+}
+
+.tab-contents ul li span{
+    color: #549F7C;
+    font-size: 14px;
+}
+
+.tab-links.active-link::after{
+    width: 50%;
+}
+
+
+/* -----------about---------- */
+#about{
+    padding: 300px 150px;
+    color: #000;
+    background-color: #B2E9B5;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.about-col-1{
+    flex-basis: 35%;
+}
+
+.about-col-1 img{
+    padding: 25px;
+    width: 100%;
+    border-radius: 50%;
+}
+
+.about-col-2{
+    flex-basis: 60%;
+}
+
+.about-col-2 h1{
+    padding: 10px 10px;
+    background-color: #549F7C;
+    color: #fff;
+    margin-bottom: 10px;
+    border-radius: 10px;
+}
+
+.about-col-2 p{
+    padding: 15px 15px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.subtitle{
+    font-size: 60px;
+    font-weight: 600;
+    justify-content: space-between;
+    flex-basis: wrap;
+}
+/*
+.main__slides h2{
+    
+}
+
+.main__slides p2{
+    
+}
+
+.main__img--container{
+    text-align: center; /* put img in center
+    justify-content: center;
+    align-items: center;
+    height: 40%; /* makes img smaller
+    width: 40%; /* makes img smaller
+}
+
+.main__img2--container{
+    border-radius: 50%;
+    padding: 10px;
+    height: 40%; /* makes img smaller
+    width: 30%; /* makes img smaller
+}
+
